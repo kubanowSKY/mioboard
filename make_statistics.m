@@ -1,4 +1,4 @@
-filters = make_filters();
+filters = make_filters(); % creating filters
 for i = 1:8
     for ii = 1:6
         sample_path = sprintf('samples/s%d/HC-%d.csv', i, ii);

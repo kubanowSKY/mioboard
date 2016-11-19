@@ -8,7 +8,7 @@ function [ filters ] = make_filters ()
     F_stop1 = 5;		% Edge of the stopband = 5 Hz
     F_pass1 = 10;	% Edge of the passband = 10 Hz
     F_pass2 = 45;	% Closing edge of the passband = 45 Hz
-    F_stop2 = 60;	% Edge of the second stopband = 60 Hz
+    F_stop2 = 50;	% Edge of the second stopband = 50 Hz
     A_stop2 = 60;		% Attenuation in the second stopband = 60 dB
     A_pass = 1;		% Amount of ripple allowed in the passband = 1 dB
 

@@ -2,7 +2,7 @@ import java.awt.Robot
 import java.awt.event.*
 
 key = Robot;
-key.setAutoDelay(100);
+key.setAutoDelay(200);
 
 load('sample_gestures.mat')
 load('filters.mat')
@@ -11,6 +11,6 @@ state = 3;  % 0 - strzela
             % 2 - w prawo
             % 3 - stan początkowy
 for i=1:100
-    [gesture, state]=recognize(sample_gestures(((199*i-198):(199*i)),:), filters, key, state);
-    pause(0.1)
+    [gesture(i), state] = recognize(sample_gestures(((199*i-198):(199*i)),:), key, state, filters);
 end
+release_all(key)

@@ -1,0 +1,8 @@
+Gra polega na tym, aby zabić wszystkich przeciwników znajdujących się na planszy, strzelając do nich (przycisk strzałki w górę). Gracz porusza się w prawo i lewo używając strzałek. 
+Przeciwnicy w miarę upływu czasu coraz szybciej zbliżają się do gracza. Aby zabić ducha należy trafić go odpowiednią ilość razy. Każdy zabity przeciwnik daje punkty. 
+Trafionie pociskiem powoduje utratę jednego życie (ilość żyć narysowana jest w lewym górnym rogu ekranu). Utrata wszystkich żyć powoduje zakończenie gry. Drugim sposobem na zakończenie gry jest sytuacja, gdy przeciwnicy tak bardzo zbliżą się do gracza, że go dotkną.
+W takim przypadku gracz przegrywa niezależnie od ilości posiadanych żyć. Zwycięstwo następuje wtedy, gdy pokonani zostaną wszyscy wrogowie na planszy.
+Grę można zatrzymać naciskając przycisk „p”. Aby ją wznowić należy jeszcze raz nacisnąć ten przycisk.
+Po ukończeniu danego poziomu przechodzi się do ekranu, na którym wypisana jest liczba dotychczas zdobytych punktów. Naciskając przycisk „Graj dalej” rozpoczyna się nowy poziom.
+Elementami urozmaicającymi grę są bonusy, które mogą wypaść z zastrzelonych przeciwników. Są trzy rodzaje bonusów: dodatkowe życie (serduszko), bonus punktowy (winogrono) oraz  chwilowe przyspieszenie strzelania gracza (prezent).
+Poza tym gracz otrzymuje dodatkowe punkty za szybkie ukończenie danego poziomu.

@@ -4,7 +4,6 @@ function [ statistics ] = prepare_statistics( filtered_probes, statistics )
             statistics(i,:)=statistics(i+1,:);
         end
     end
-    [statistics(5,1), statistics(5,2), statistics(5,3)]...
+    [statistics(5,1), statistics(5,2), statistics(5,3),statistics(5,4)]...
         = average_diff(filtered_probes);
 end
-
